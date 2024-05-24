@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["type-name", "type-name-derive"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+authors = ["DOCtorActoAntohich"]
+
+[workspace.dependencies]
+syn = "2"
+quote = { version = "1" }

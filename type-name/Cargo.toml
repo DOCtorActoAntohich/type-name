@@ -1,0 +1,7 @@
+[package]
+name = "type-name"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+type-name-derive = { path = "../type-name-derive" }

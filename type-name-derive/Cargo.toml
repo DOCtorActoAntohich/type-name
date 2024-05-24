@@ -1,0 +1,11 @@
+[package]
+name = "type-name-derive"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+syn.workspace = true
+quote.workspace = true
+
+[lib]
+proc-macro = true
