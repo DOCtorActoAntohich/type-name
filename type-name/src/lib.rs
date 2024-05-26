@@ -1,11 +1,8 @@
-/// Allows programmatically extracting the `struct` or enum name as String.
-/// It does not capture namespaces, but simply writes a
+/// Allows programmatically extracting the `struct` or `enum` name as String.
+/// It does not capture namespaces and only uses the type name as it is in code.
 ///
-/// - When derived automagically, it will simply take
-///   the struct name as it's written in code.
-/// - Manual implementation is more prone to errors
-///   (such as renaming and then forgetting to change the string in `impl`),
-///   but allows for any custom short (or even LOOOOONG) name.
+/// Manual implementation is possible, but may be prone to errors such as
+/// "Crap, I renamed the enum, but forgor to change the trait implementation"
 ///
 /// Good part is: no `Debug` required.
 ///
