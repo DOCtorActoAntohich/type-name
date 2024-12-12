@@ -10,10 +10,9 @@
 ///
 /// ### Struct
 ///
-/// ```rust
-/// use type_name::ShortTypeName;
-///
-/// #[derive(ShortTypeName)]
+/// ```
+/// # use type_name::ShortTypeName;
+/// #[derive(type_name::ShortTypeName)]
 /// struct MyEpicStruct {
 ///     _unused: i32,
 ///     _actually_used: Box<MyEpicStruct>,
@@ -24,10 +23,9 @@
 ///
 /// ### Enum
 ///
-/// ```rust
-/// use type_name::ShortTypeName;
-///
-/// #[derive(ShortTypeName)]
+/// ```
+/// # use type_name::ShortTypeName;
+/// #[derive(type_name::ShortTypeName)]
 /// enum NonSusEnum {
 ///     Red,
 ///     Yellow,
